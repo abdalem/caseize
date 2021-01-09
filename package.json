@@ -1,0 +1,27 @@
+{
+  "name": "caseize",
+  "version": "1.0.0",
+  "description": "Caseize any objects to snake_case or camelCase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abdalem/caseize.git"
+  },
+  "keywords": [
+    "snakecase",
+    "camelcase",
+    "case",
+    "javascript",
+    "typescript",
+    "node"
+  ],
+  "author": "abdalem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdalem/caseize/issues"
+  },
+  "homepage": "https://github.com/abdalem/caseize#readme"
+}
