@@ -1,6 +1,6 @@
 {
   "name": "caseize",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Caseize any objects to snake_case or camelCase",
   "main": "dist/index.js",
   "scripts": {
