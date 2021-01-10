@@ -8,7 +8,7 @@
     "noUnusedLocals": true,
     "skipLibCheck": true,
     "incremental": true,
-    "declaration": false,
+    "declaration": true,
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist",
