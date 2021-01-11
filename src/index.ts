@@ -1,8 +1,6 @@
 import _ from 'lodash';
 import { CompatibleCasesConstants, CompatibleCases, Cases } from './types';
 
-export * from './types';
-
 const cases: Cases = {
   [ CompatibleCasesConstants.CAMELCASE ]: (key: string) => _.camelCase(key),
   [ CompatibleCasesConstants.SNAKECASE ]: (key: string) => _.snakeCase(key),
@@ -23,3 +21,4 @@ const caseize = (data: any, casing: CompatibleCases) => {
 }
 
 export default caseize;
+export { CompatibleCasesConstants, CompatibleCases, Cases };
